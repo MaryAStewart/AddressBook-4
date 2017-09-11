@@ -1,0 +1,24 @@
+   <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="styles/main.css">
+<title>Address Book</title>
+
+</head>
+<body>
+ <header><h1>Your Address Book</h1></header>
+ 
+   <form name="addressbook" method="Post" action="add">
+   Name: <input type="text" required name="name"><br><br>   
+   Email: <input type="email" required name="email"><br><br>
+   Phone: <input type="tel" name= "phoneNumber"><br><br>
+   <input type="submit" value="Add">  <!-- hoping to make this add work by adding to a SQL database --> 
+   </form>
+   <form name ="addressbook" method="Post" action="list"> <!-- Trying to make this work -->
+   <p>Please press List to see all entries in the Address Book </p>
+   <input type="submit" value="List">
+   </form>
+
+</body>
+</html>
