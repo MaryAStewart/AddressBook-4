@@ -4,7 +4,7 @@ When the user clicks the "List" button the command goes to the AddressBookServle
 which accessess the "Contacts" SQL database to fill the ArrayList. That information is then passed to the JSP which uses the information to
 fill an HTML table which is then displayed for the user to see.
 I added some CSS to the HTML table to enhance it.
-You can see screen shots of the HTML form and HTML table (list) above in the files downloaded.
+You can see screen shots of the HTML form(png) and HTML table (list(png)) above in the "asdd files via upload".
 The next iteration of this app will allow the user to add, update and delete from the address book.
 
 
