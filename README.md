@@ -10,6 +10,9 @@ I used Apache Tomcat as the server on my local machine. In order for this line o
 under the WEB-INF folder. Some other important notes regarding using Tomcat: make sure the derby.jar(Embedded Driver) and 
 derbyclient.jar(Client Driver) are in the Build Path for the project as well as the lib folder for Tomcat. Also, to get the Driver 
 Manager to work in the UserDB class I had to add this line of code:  DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());
+
+When copying the files from this project make sure the HTML and JSP files are under the Web Content folder and not the WEB-INF folder.
+
 In order to get this project to run open the index.html in the html editor and then right click on the open file, go to Run As, Run on Server.  This should start the server and open the HTML form. Now click the "List" button. This will make the HTML table appear
 with the Address Book list of entries.
 
